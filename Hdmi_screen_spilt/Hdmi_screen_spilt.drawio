@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="D4jb2x16DxbJwkbr8Rxy" name="HDMI screen split real solution flow">
-        <mxGraphModel dx="1013" dy="649" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1216" dy="779" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -145,7 +145,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="RjBVvk8Mzt5pIrNHiMJC" name="HDMI screen spilt verification flow">
-        <mxGraphModel dx="1013" dy="649" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel grid="0" page="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -250,20 +250,6 @@
                 <mxCell id="40" style="jumpStyle=arc;elbow=vertical;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="vJMkvNvz64s3IryYMbfB-65" source="3" target="39" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;startArrow=classic;startFill=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" edge="1" parent="vJMkvNvz64s3IryYMbfB-65" source="7" target="39">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="931" y="27" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="541" y="162"/>
-                            <mxPoint x="541" y="29"/>
-                            <mxPoint x="1014" y="29"/>
-                            <mxPoint x="1014" y="70"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="41" value="AXI4 Stream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="vJMkvNvz64s3IryYMbfB-65" vertex="1">
-                    <mxGeometry x="637" y="124" width="91" height="30" as="geometry"/>
-                </mxCell>
                 <mxCell id="42" value="AXI4 Stream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="vJMkvNvz64s3IryYMbfB-65" vertex="1">
                     <mxGeometry x="834" y="193" width="91" height="30" as="geometry"/>
                 </mxCell>
@@ -282,8 +268,11 @@
                 <mxCell id="53" value="DDR" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="vJMkvNvz64s3IryYMbfB-65" vertex="1">
                     <mxGeometry x="237.5" y="265" width="81" height="32" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="IP register control from coretex a53" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="vJMkvNvz64s3IryYMbfB-65">
-                    <mxGeometry x="380" y="209" width="126" height="30" as="geometry"/>
+                <mxCell id="41" value="AXI4 Stream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="vJMkvNvz64s3IryYMbfB-65" vertex="1">
+                    <mxGeometry x="637" y="124" width="91" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="FPGA BD design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="vJMkvNvz64s3IryYMbfB-65">
+                    <mxGeometry x="163" y="4" width="106" height="27" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" value="I2C for EDID check" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="vJMkvNvz64s3IryYMbfB-65">
                     <mxGeometry x="724" y="5" width="106" height="27" as="geometry"/>
@@ -291,8 +280,34 @@
                 <mxCell id="64" value="HDMI TX CABLE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="vJMkvNvz64s3IryYMbfB-65">
                     <mxGeometry x="895" y="104" width="72" height="27" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="FPGA BD design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="vJMkvNvz64s3IryYMbfB-65">
-                    <mxGeometry x="163" y="4" width="106" height="27" as="geometry"/>
+                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;startArrow=classic;startFill=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" edge="1" parent="vJMkvNvz64s3IryYMbfB-65" source="7" target="39">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="931" y="27" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="541" y="162"/>
+                            <mxPoint x="541" y="29"/>
+                            <mxPoint x="1014" y="29"/>
+                            <mxPoint x="1014" y="70"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="IP register control from coretex a53" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="vJMkvNvz64s3IryYMbfB-65">
+                    <mxGeometry x="380" y="209" width="126" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="uZewZQSehZQlEA1LCFIS-65" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;startArrow=classic;startFill=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1055.5" y="173" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="583" y="265"/>
+                            <mxPoint x="583" y="132"/>
+                            <mxPoint x="1056" y="132"/>
+                            <mxPoint x="1056" y="173"/>
+                        </Array>
+                        <mxPoint x="545" y="265" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uZewZQSehZQlEA1LCFIS-66" value="I2C for EDID check" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="766" y="108" width="106" height="27" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
