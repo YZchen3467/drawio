@@ -1,0 +1,89 @@
+<mxfile host="65bd71144e">
+    <diagram id="4Zwy263Zy7jMC4nI4DeS" name="RAM category">
+        <mxGraphModel dx="1386" dy="779" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="GQ4ZNhDwMplAb6naEBB--1" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="144" y="202" width="553" height="266" as="geometry"/>
+                </mxCell>
+                <mxCell id="GQ4ZNhDwMplAb6naEBB--2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="GQ4ZNhDwMplAb6naEBB--1">
+                    <mxGeometry width="553" height="266" as="geometry"/>
+                </mxCell>
+                <mxCell id="GQ4ZNhDwMplAb6naEBB--3" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 23px;&quot;&gt;DRAM&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Synchronous DRAM(SRAM)&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;Double Data Rate SDRAM(DDR)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacing=0;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="GQ4ZNhDwMplAb6naEBB--1">
+                    <mxGeometry x="32" y="74.5" width="194" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="GQ4ZNhDwMplAb6naEBB--4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;RAM&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GQ4ZNhDwMplAb6naEBB--1">
+                    <mxGeometry x="469" y="233" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="GQ4ZNhDwMplAb6naEBB--5" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 23px;&quot;&gt;SRAM&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;L1、L2、L3 Cache&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacing=0;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="GQ4ZNhDwMplAb6naEBB--1">
+                    <mxGeometry x="325" y="74" width="194" height="117.5" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="wUFjwWL0PVoBcGWKTkA8" name="MEM category">
+        <mxGraphModel dx="1386" dy="779" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="144" y="202" width="553" height="266" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="7">
+                    <mxGeometry width="553" height="266" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;ROM(Read-only mem)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacing=0;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="32" y="74.5" width="194" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Memory&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7">
+                    <mxGeometry x="469" y="233" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;RAM(Random Access Mem)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacing=0;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="325" y="74" width="194" height="117.5" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="rUSf4frkqI4ZtRpKhJrS" name="CPU excution flow">
+        <mxGraphModel dx="1155" dy="649" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="v9bLiyRQ9dO6Hw5_8KtH-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="165" y="202" width="895" height="266" as="geometry"/>
+                </mxCell>
+                <mxCell id="v9bLiyRQ9dO6Hw5_8KtH-3" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;span style=&quot;&quot;&gt;DRAM&lt;br&gt;&lt;/span&gt;DDR&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacing=0;fillColor=#dae8fc;strokeColor=none;container=0;flipV=1;flipH=1;" vertex="1" parent="1">
+                    <mxGeometry x="826" y="292" width="194" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="v9bLiyRQ9dO6Hw5_8KtH-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;CPU Excution flow&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="843" y="435" width="214" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="v9bLiyRQ9dO6Hw5_8KtH-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;&quot;&gt;SRAM&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;L1 Cache&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacing=0;fillColor=#f8cecc;strokeColor=none;container=0;flipV=1;flipH=1;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="316" width="97" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="v9bLiyRQ9dO6Hw5_8KtH-9" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;fontColor=#CCFFFF;startArrow=classic;startFill=1;" edge="1" parent="1" source="v9bLiyRQ9dO6Hw5_8KtH-6" target="v9bLiyRQ9dO6Hw5_8KtH-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="v9bLiyRQ9dO6Hw5_8KtH-6" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 23px;&quot;&gt;CPU&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacing=0;fillColor=#d5e8d4;strokeColor=#82b366;container=0;flipV=1;flipH=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="312" width="104" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="v9bLiyRQ9dO6Hw5_8KtH-10" value="" style="edgeStyle=none;html=1;fontSize=23;fontColor=#CCFFFF;startArrow=classic;startFill=1;" edge="1" parent="1" source="v9bLiyRQ9dO6Hw5_8KtH-7" target="v9bLiyRQ9dO6Hw5_8KtH-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="v9bLiyRQ9dO6Hw5_8KtH-11" value="" style="edgeStyle=none;html=1;fontSize=23;fontColor=#CCFFFF;startArrow=classic;startFill=1;" edge="1" parent="1" source="v9bLiyRQ9dO6Hw5_8KtH-7" target="v9bLiyRQ9dO6Hw5_8KtH-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="v9bLiyRQ9dO6Hw5_8KtH-7" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;&quot;&gt;SRAM&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;L2 Cache&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacing=0;fillColor=#f8cecc;strokeColor=none;container=0;flipV=1;flipH=1;" vertex="1" parent="1">
+                    <mxGeometry x="491" y="293" width="101" height="113" as="geometry"/>
+                </mxCell>
+                <mxCell id="v9bLiyRQ9dO6Hw5_8KtH-12" value="" style="edgeStyle=none;html=1;fontSize=23;fontColor=#CCFFFF;startArrow=classic;startFill=1;" edge="1" parent="1" source="v9bLiyRQ9dO6Hw5_8KtH-8" target="v9bLiyRQ9dO6Hw5_8KtH-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="v9bLiyRQ9dO6Hw5_8KtH-8" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;span style=&quot;&quot;&gt;SRAM&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;L3 Cache&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacing=0;fillColor=#f8cecc;strokeColor=none;container=0;flipV=1;flipH=1;" vertex="1" parent="1">
+                    <mxGeometry x="627" y="274.75" width="124" height="154.5" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
